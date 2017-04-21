@@ -37,7 +37,10 @@ namespace WhatsAppMessenger
 
         private void btnRequest_Click(object sender, EventArgs e)
         {
-            if(String.IsNullOrEmpty(txtNumber.Text))
+            //Testing.TestClass testClass = new Testing.TestClass();
+            //testClass.DoSomething();
+
+            if (String.IsNullOrEmpty(txtNumber.Text))
             {
                 MessageBox.Show("Please enter your phone number.", "Message", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 txtNumber.Focus();
@@ -49,7 +52,9 @@ namespace WhatsAppMessenger
                 txtName.Focus();
                 return;
             }
-            if (WhatsAppApi.Register.WhatsRegisterV2.RequestCode(txtNumber.Text, out password, "sms"))
+            String error;
+
+            if (WhatsAppApi.Register.WhatsRegisterV2.RequestCode(txtNumber.Text, out password, out error, "sms"))
             {
                 if (!string.IsNullOrEmpty(password))
                     Save();
@@ -92,7 +97,9 @@ namespace WhatsAppMessenger
                 txtSms.Focus();
                 return;
             }
-            password = WhatsAppApi.Register.WhatsRegisterV2.RegisterCode(txtNumber.Text, txtSms.Text);
+            String error;
+
+            password = WhatsAppApi.Register.WhatsRegisterV2.RegisterCode(txtNumber.Text, txtSms.Text, out error);
             Save();
         }
 
