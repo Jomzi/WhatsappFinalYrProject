@@ -12,3 +12,4 @@ C:\Users\Jomziii\Documents\Visual Studio 2015\Projects\WhatsAppMessenger\WhatsAp
 C:\Users\Jomziii\Documents\Visual Studio 2015\Projects\WhatsAppMessenger\WhatsAppMessenger\obj\Debug\WhatsAppMessenger.exe
 C:\Users\Jomziii\Documents\Visual Studio 2015\Projects\WhatsAppMessenger\WhatsAppMessenger\obj\Debug\WhatsAppMessenger.pdb
 C:\Users\Jomziii\Documents\Visual Studio 2015\Projects\WhatsAppMessenger\WhatsAppMessenger\bin\Debug\WhatsAppApi.dll
+C:\Users\Jomziii\Documents\Visual Studio 2015\Projects\WhatsAppMessenger\WhatsAppMessenger\bin\Debug\WhatsAppApi.pdb

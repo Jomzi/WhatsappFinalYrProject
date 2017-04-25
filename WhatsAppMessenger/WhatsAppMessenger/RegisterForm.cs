@@ -40,12 +40,14 @@ namespace WhatsAppMessenger
             //Testing.TestClass testClass = new Testing.TestClass();
             //testClass.DoSomething();
 
+            //Validate phone number exists
             if (String.IsNullOrEmpty(txtNumber.Text))
             {
                 MessageBox.Show("Please enter your phone number.", "Message", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 txtNumber.Focus();
                 return;
             }
+            //Validate Name
             if (String.IsNullOrEmpty(txtName.Text))
             {
                 MessageBox.Show("Please enter your full name.", "Message", MessageBoxButtons.OK, MessageBoxIcon.Information);
@@ -54,6 +56,7 @@ namespace WhatsAppMessenger
             }
             String error;
 
+            //Requesting a code using the whatsapp API 
             if (WhatsAppApi.Register.WhatsRegisterV2.RequestCode(txtNumber.Text, out password, out error, "sms"))
             {
                 if (!string.IsNullOrEmpty(password))
@@ -70,12 +73,15 @@ namespace WhatsAppMessenger
 
         public void Save()
         {
+            //Storing the users account information
             this.grbConfirm.Enabled = false;
             this.grbRequest.Enabled = false;
             Properties.Settings.Default.PhoneNumber = txtNumber.Text;
             Properties.Settings.Default.Password = password;
             Properties.Settings.Default.FullName = txtName.Text;
             Properties.Settings.Default.Save();
+
+            //Create a new record if the number doesnt already exist
             if(Globals.DB.Accounts.FindByAccountId(txtNumber.Text)==null)
             {
                 AppData.AccountsRow row = Globals.DB.Accounts.NewAccountsRow();
@@ -91,6 +97,7 @@ namespace WhatsAppMessenger
 
         private void btnConfirm_Click(object sender, EventArgs e)
         {
+            //Validate sms code
             if (String.IsNullOrEmpty(txtSms.Text))
             {
                 MessageBox.Show("Please enter your sms code,", "Message", MessageBoxButtons.OK, MessageBoxIcon.Information);

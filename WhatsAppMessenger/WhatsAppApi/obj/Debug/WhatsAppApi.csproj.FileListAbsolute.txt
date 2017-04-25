@@ -1,0 +1,14 @@
+C:\Users\Jomziii\Desktop\whatsAppApi_Dotnet-master\WhatsAppApi\bin\Debug\WhatsAppApi.dll
+C:\Users\Jomziii\Desktop\whatsAppApi_Dotnet-master\WhatsAppApi\bin\Debug\WhatsAppApi.pdb
+C:\Users\Jomziii\Desktop\whatsAppApi_Dotnet-master\WhatsAppApi\obj\Debug\WhatsAppApi.csprojResolveAssemblyReference.cache
+C:\Users\Jomziii\Desktop\whatsAppApi_Dotnet-master\WhatsAppApi\obj\Debug\WhatsAppApi.Properties.Resources.resources
+C:\Users\Jomziii\Desktop\whatsAppApi_Dotnet-master\WhatsAppApi\obj\Debug\WhatsAppApi.csproj.GenerateResource.Cache
+C:\Users\Jomziii\Desktop\whatsAppApi_Dotnet-master\WhatsAppApi\obj\Debug\WhatsAppApi.dll
+C:\Users\Jomziii\Desktop\whatsAppApi_Dotnet-master\WhatsAppApi\obj\Debug\WhatsAppApi.pdb
+C:\Users\Jomziii\Documents\Visual Studio 2015\Projects\WhatsAppMessenger\WhatsAppApi\bin\Debug\WhatsAppApi.dll
+C:\Users\Jomziii\Documents\Visual Studio 2015\Projects\WhatsAppMessenger\WhatsAppApi\bin\Debug\WhatsAppApi.pdb
+C:\Users\Jomziii\Documents\Visual Studio 2015\Projects\WhatsAppMessenger\WhatsAppApi\obj\Debug\WhatsAppApi.csprojResolveAssemblyReference.cache
+C:\Users\Jomziii\Documents\Visual Studio 2015\Projects\WhatsAppMessenger\WhatsAppApi\obj\Debug\WhatsAppApi.Properties.Resources.resources
+C:\Users\Jomziii\Documents\Visual Studio 2015\Projects\WhatsAppMessenger\WhatsAppApi\obj\Debug\WhatsAppApi.csproj.GenerateResource.Cache
+C:\Users\Jomziii\Documents\Visual Studio 2015\Projects\WhatsAppMessenger\WhatsAppApi\obj\Debug\WhatsAppApi.dll
+C:\Users\Jomziii\Documents\Visual Studio 2015\Projects\WhatsAppMessenger\WhatsAppApi\obj\Debug\WhatsAppApi.pdb
